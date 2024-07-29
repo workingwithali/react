@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <div>This is count {count}</div>
+      <div>This is count {count}</div>
       <button onClick={()=>{setCount(count+1)}}>update count</button>
     </>
   )
